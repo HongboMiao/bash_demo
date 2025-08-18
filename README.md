@@ -25,28 +25,34 @@
 ## 使用示例
 
 ./test1.sh
-> l
+
 未知命令，输入 'help' 查看可用命令
 > help
+
 Usage:
   push <element>  # 入栈
+  
   pop             # 出栈
+  
   print           # 打印栈
+  
   clear           # 清空栈
+  
   help            # 显示帮助
+  
   exit            # 退出程序
-> push 1
-已将 '1' 进栈
-> push 2
-已将 '2' 进栈
-> print
-栈的当前状态: [1 2]
-> pop
-已将 '2' 出栈
-> print
-栈的当前状态: [1]
-> pop
-已将 '1' 出栈
-> print
-栈为空
+> push 1  #已将 '1' 进栈
+> 
+> push 2  #已将 '2' 进栈
+> 
+> print  #栈的当前状态: [1 2]
+> 
+> pop  #已将 '2' 出栈
+> 
+> print  #栈的当前状态: [1]
+> 
+> pop  #已将 '1' 出栈
+> 
+> print  #栈为空
+> 
 > exit
